@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/shaamir/coen11/lab4/lab3'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003100, symSize: 0x190 }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _counter, symObjAddr: 0x1EFC, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x75, size: 0x8, addend: 0x0, symName: _phonebook, symBinAddr: 0x100008004, symSize: 0x0 }
+  - { offsetInCU: 0xCE, offset: 0xCE, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003100, symSize: 0x190 }
+  - { offsetInCU: 0xF6, offset: 0xF6, size: 0x8, addend: 0x0, symName: _show_all, symObjAddr: 0x1A8, symBinAddr: 0x1000032A8, symSize: 0xE4 }
+  - { offsetInCU: 0x128, offset: 0x128, size: 0x8, addend: 0x0, symName: _insert, symObjAddr: 0x28C, symBinAddr: 0x10000338C, symSize: 0x380 }
+  - { offsetInCU: 0x1A6, offset: 0x1A6, size: 0x8, addend: 0x0, symName: _check_duplicate, symObjAddr: 0x60C, symBinAddr: 0x10000370C, symSize: 0xD4 }
+  - { offsetInCU: 0x1EA, offset: 0x1EA, size: 0x8, addend: 0x0, symName: _show_name, symObjAddr: 0x6E0, symBinAddr: 0x1000037E0, symSize: 0x1A0 }
+  - { offsetInCU: 0x22A, offset: 0x22A, size: 0x8, addend: 0x0, symName: _delete, symObjAddr: 0x880, symBinAddr: 0x100003980, symSize: 0x1F8 }
+  - { offsetInCU: 0x286, offset: 0x286, size: 0x8, addend: 0x0, symName: _deleteAll, symObjAddr: 0xA78, symBinAddr: 0x100003B78, symSize: 0x198 }
+...
